@@ -1,0 +1,12 @@
+{
+	"name": "onscreensensor",
+	"version": "1.0.1",
+	"description": "The react library that provides the ability to know whether the element inside this tag is shown on screen or not",
+	"main": "OnScreenSensor.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [ "react", "visibility", "sensor", "fade" ],
+	"author": "aaw0kenn",
+	"license": "ISC"
+}
