@@ -39,7 +39,7 @@ export default Example
 
 ### Changelog
 
-## [1.0.5-stable] - Current Version
+## [1.0.6-stable] - Current Version
 - Fixed the return boolean that always return false
 
 ## [1.0.42-a]
