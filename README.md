@@ -24,6 +24,7 @@ yarn add onscreensensor
 2. **Usage.**
 
 ```jsx
+import React fron 'react';
 import OnScreenSensor from 'react-onscreensensor'
 const Example () => {
     return(
@@ -32,11 +33,17 @@ const Example () => {
         </OnScreenSensor>
     )
 }
+
+export default Example
 ```
 
 ### Changelog
 
-## [1.0.41] - Current
+## [1.0.42] - Current Version
+- Bundled files using webpack and all files are structured
+- Updated Example of usage
+
+## [1.0.41]
 - Removed console logging when the class is created
 - Removed unused state
 
