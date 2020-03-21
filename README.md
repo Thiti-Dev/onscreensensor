@@ -36,7 +36,14 @@ const Example () => {
 
 ### Changelog
 
-## [1.0.3] - Current
+## [1.0.41] - Current
+- Removed console logging when the class is created
+- Removed unused state
+
+## [1.0.4]
+- Removed unused empty cycle
+
+## [1.0.3]
 - Renamed from onscreensensor to react-onscreensensor (The prefix does make sense)
 
 ## [1.0.1] - Deprecated ( old pkg name )

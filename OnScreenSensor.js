@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
 import * as Func from './utils/Functions';
 
-//const $ = window.$;
-
 export class OnScreenSensor extends Component {
 	constructor(props) {
 		super(props);
 		this.canvas = React.createRef();
 		this.state = {
-			unique_id: Date.now().toString(),
 			isOnscreen: false
 		};
 	}
-	componentWillMount() {}
 	componentDidMount() {
 		//Custom scroll event
 		window.addEventListener('scroll', this.handleScroll.bind(this));
-		console.log(this.canvas.current);
 
 		//Trigger once when mounted
 		this.handleScroll();
