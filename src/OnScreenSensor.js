@@ -4,6 +4,7 @@ import * as Func from './utils/Functions';
 export class OnScreenSensor extends Component {
 	constructor(props) {
 		super(props);
+		this.handleScroll = this.handleScroll.bind(this); // binding once here
 		this.canvas = React.createRef();
 		this.state = {
 			isOnscreen: false
@@ -11,7 +12,7 @@ export class OnScreenSensor extends Component {
 	}
 	componentDidMount() {
 		//Custom scroll event
-		window.addEventListener('scroll', this.handleScroll.bind(this));
+		window.addEventListener('scroll', this.handleScroll, false);
 
 		//Trigger once when mounted
 		this.handleScroll();
@@ -19,7 +20,7 @@ export class OnScreenSensor extends Component {
 
 	componentWillUnmount() {
 		//Unregister Listener
-		window.Events.scrollEvent.remove('scroll');
+		window.removeEventListener('scroll', this.handleScroll, false);
 	}
 
 	handleScroll(event) {

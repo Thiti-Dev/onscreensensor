@@ -39,21 +39,25 @@ export default Example
 
 ### Changelog
 
-## [1.0.6-stable] - Current Version
+## [1.0.7-stable] - Current Version
+- Binding function once in constructor
+- Remove event listener when un-mounting the right way ( mistaken fixed )
+
+## [1.0.6-stable] - Deprecated
 - Fixed the return boolean that always return false
 
-## [1.0.42-a]
+## [1.0.42-a] - Deprecated
 - Bundled files using webpack and all files are structured
 - Updated Example of usage
 
-## [1.0.41]
+## [1.0.41] - Deprecated
 - Removed console logging when the class is created
 - Removed unused state
 
-## [1.0.4]
+## [1.0.4] - Deprecated
 - Removed unused empty cycle
 
-## [1.0.3]
+## [1.0.3] - Deprecated
 - Renamed from onscreensensor to react-onscreensensor (The prefix does make sense)
 
 ## [1.0.1] - Deprecated ( old pkg name )

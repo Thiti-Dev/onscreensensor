@@ -1,6 +1,6 @@
 {
 	"name": "react-onscreensensor",
-	"version": "1.0.6-stable",
+	"version": "1.0.7-stable",
 	"description": "The react library that provides the ability to know whether the element inside this tag is shown on screen or not",
 	"main": "./build/index.js",
 	"scripts": {
