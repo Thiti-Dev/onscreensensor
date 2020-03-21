@@ -15,7 +15,7 @@ A React Library which provides the ability whether to check if the wrapped eleme
 
 1. **Install the node modules.**
 
-Intall via yarn / npm , your preference
+Installing via yarn / npm , your preference
 
 ```sh
 yarn add onscreensensor
