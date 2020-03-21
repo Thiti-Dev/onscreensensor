@@ -24,7 +24,7 @@ yarn add onscreensensor
 2. **Usage.**
 
 ```jsx
-import OnScreenSensor from 'onscreensensor'
+import OnScreenSensor from 'react-onscreensensor'
 const Example () => {
     return(
         <OnScreenSensor onChange={isVisible => console.log(`Visibility : ${isVisible}`)}>
@@ -33,6 +33,19 @@ const Example () => {
     )
 }
 ```
+
+### Changelog
+
+## [1.0.3] - Current
+- Renamed from onscreensensor to react-onscreensensor (The prefix does make sense)
+
+## [1.0.1] - Deprecated ( old pkg name )
+- Added a utils folder to contains separate function
+- Fixed operators warning in functions
+- Added README.md
+
+## [1.0.0] - Deprecated ( old pkg name )
+- Initialized all needed files
 
 <p align="center">
   <b>: Contact me By :</b><br>
