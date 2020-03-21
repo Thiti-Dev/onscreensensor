@@ -35,7 +35,7 @@ export class OnScreenSensor extends Component {
 				if (Func.visibleY(this.canvas.current)) {
 					this.setState({ isOnscreen: true }, () => {
 						//Calling a callback function that passed into prop
-						if (this.props.onChange) this.props.onChange(false);
+						if (this.props.onChange) this.props.onChange(true);
 					});
 				}
 			}

@@ -1,18 +1,13 @@
 {
 	"name": "react-onscreensensor",
-	"version": "1.0.42",
+	"version": "1.0.5-stable",
 	"description": "The react library that provides the ability to know whether the element inside this tag is shown on screen or not",
 	"main": "./build/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "webpack"
 	},
-	"keywords": [
-		"react",
-		"visibility",
-		"sensor",
-		"fade"
-	],
+	"keywords": [ "react", "visibility", "sensor", "fade" ],
 	"author": "aaw0kenn",
 	"license": "ISC",
 	"repository": {

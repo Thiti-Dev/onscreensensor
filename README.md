@@ -39,7 +39,10 @@ export default Example
 
 ### Changelog
 
-## [1.0.42] - Current Version
+## [1.0.5-stable] - Current Version
+- Fixed the return boolean that always return false
+
+## [1.0.42-a]
 - Bundled files using webpack and all files are structured
 - Updated Example of usage
 
